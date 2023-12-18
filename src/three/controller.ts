@@ -5,6 +5,7 @@
 module BP3D.Three {
   export var Controller = function (three, model, camera, element, controls, hud) {
 
+    console.log("hud ", hud);
     var scope = this;
 
     this.enabled = true;

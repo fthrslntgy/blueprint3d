@@ -21,7 +21,7 @@ module.exports = function (grunt) {
   };
 
   configuration.copy.threejs = {
-    src: "node_modules/three/three.min.js",
+    src: "src/three/three.min.js",
     dest: globalConfig.exampleDir + "/three.min.js"
   }
 
@@ -29,7 +29,7 @@ module.exports = function (grunt) {
     options: {
       target: "es5",
       declaration: true,
-      sourceMap: true,
+      sourceMap: false,
       removeComments: false
     }
   };
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
     options: {
       mangle: true,
       beautify: false,
-      sourceMap: true
+      sourceMap: false
     }
   }
   configuration.uglify[globalConfig.moduleName] = {
