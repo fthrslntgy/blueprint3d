@@ -24,9 +24,10 @@
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-string-replace": "^1.2.1",
     "grunt-subgrunt": "^1.2.0",
+    "grunt-ts": "^5.5.1",
     "grunt-typedoc": "^0.2.4",
-    "grunt-typescript": "^0.8.0",
-    "matchdep": "^1.0.1"
+    "matchdep": "^1.0.1",
+    "vite": "^5.0.10"
   },
   "repository": {
     "type": "git",

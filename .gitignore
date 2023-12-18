@@ -10,5 +10,6 @@ build
 bin
 doc
 dist
+.tscache
 example/js/blueprint3d.js
 example/js/three.min.js
